@@ -3,7 +3,31 @@
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
-      home: Scaffold(
+
+
+  home: Scaffold(
+
+
+      body: Column(
+          children: const [
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.monetization_on),
+                title: Text('100.00'),
+                subtitle: Text('2341'),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.monetization_on),
+                title: Text('100.00'),
+                subtitle: Text('2341'),
+              ),
+            ),
+          ],
+        ),
+
+
         appBar: AppBar(
           title: const Text('Transferências'),),
         floatingActionButton: FloatingActionButton(
